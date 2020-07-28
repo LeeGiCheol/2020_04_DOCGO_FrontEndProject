@@ -100,7 +100,6 @@ $(document).ready(function(){
         })
       })
 
-     //사업 영역 : PC
    $(".business_area .list li").on("mouseenter",function(e){
     $(this).addClass("active");
     $(".business_area").addClass("active");
@@ -110,7 +109,6 @@ $(".business_area .list li").on("mouseleave",function(e){
     $(".business_area").removeClass("active");
 });
 
-//함께 하는 삼양
 //PC
  $(".with_area .pc .box2 .btn_pause").click(function(){
      var withVideoPc = document.getElementById("videoPc");
